@@ -1,9 +1,10 @@
 # explanation: https://www.reddit.com/r/askmath/comments/14suc7s/can_someone_explain_to_me_the_monty_hall_problem/
 # Try it with 1,000,000 doors and remember that the host knows which door has the prize behind it.
+# You pick a door and the host removes 999,998 of the other doors. You are now given the option to stay or switch. 
+# It's guaranteed that those 999,998 doors that were removed were all duds. The prize is guaranteed to be behind one of the 2 
+# remaining doors. Do you stick with your original choice, knowing it was a 1 in a million shot that it was right or do you swap? Do you still think it's a 50/50 shot?
+# You have a 999,999 in 1,000,000 chance of winning if you switch.
 
-You pick a door and the host removes 999,998 of the other doors. You are now given the option to stay or switch. It's guaranteed that those 999,998 doors that were removed were all duds. The prize is guaranteed to be behind one of the 2 remaining doors. Do you stick with your original choice, knowing it was a 1 in a million shot that it was right or do you swap? Do you still think it's a 50/50 shot?
-
-You have a 999,999 in 1,000,000 chance of winning if you switch.
 import numpy as np
 import pandas as pd
 
